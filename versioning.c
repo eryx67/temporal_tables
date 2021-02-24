@@ -47,7 +47,7 @@
 #define RangeTypePGetDatum RangeTypeGetDatum
 #endif
 
-#if PG_VERSION_NUM >= 130001
+#if PG_VERSION_NUM >= 130000
 // https://github.com/postgres/postgres/commit/f25968c49697db673f6cd2a07b3f7626779f1827
 #define heap_open table_open
 #define heap_openrv table_openrv
